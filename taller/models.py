@@ -5,6 +5,7 @@ class Equipo(models.Model):
     serie = models.CharField(max_length=40)
     contador = models.IntegerField()
 
+
 class Cliente(models.Model):
     nombre = models.CharField(max_length=40)
     apellido = models.CharField(max_length=40)
